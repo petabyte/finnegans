@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:scrollbars="vertical">
+
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/buttonlayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#006633"
+	    android:gravity="top|left|center"
+	    android:height="50dp"
+	    android:orientation="horizontal"
+	    android:paddingTop="-2dp" >
+
+	    <LinearLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/textlayout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:gravity="left|center_vertical"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/txtTest"
+	            android:layout_width="116dp"
+	            android:layout_height="50dp"
+	            android:gravity="center_vertical|center_horizontal"
+	            android:hint="@string/Beer_Locator"
+	            android:paddingLeft="5dp"
+	            android:text="@string/Beer_Locator"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15sp"
+	            android:textStyle="bold" />
+	    </LinearLayout>
+
+	    <LinearLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/buttonlayout2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="right"
+	        android:orientation="horizontal" >
+
+	        <ImageButton
+	            android:id="@+id/refresh_button"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:background="@drawable/ic_menu_refresh"
+	            android:contentDescription="@string/Refresh" />
+	             <ImageButton
+	            android:id="@+id/back_button"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:background="@drawable/ic_menu_back"
+	            android:contentDescription="@string/Back" />
+	    </LinearLayout>
+
+	</LinearLayout>
+
+	<WebView
+	    android:id="@+id/finnegansWebView"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginLeft="-6dp"
+	    android:layout_marginTop="1dp"
+	    android:clipToPadding="true"
+	    android:paddingBottom="1dp"
+	    android:scrollbars="none" />
+
+</LinearLayout>
+
+
+

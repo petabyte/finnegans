@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Finnegans</string>
+    <string name="Finnegans">Finnegans</string>
+    <string name="Beer_Locator">Beer Locator</string>
+    <string name="Back">Back</string>
+      <string name="Done">Done</string>
+    <string name="Refresh">Refresh</string>
+    <string name="Loading">Loading</string>
+</resources>
